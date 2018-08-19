@@ -17,13 +17,14 @@
     <nav>
       <h1><a href="/">Restaurant Reviews</a></h1>
     </nav>
+    <!--This skip link anchor helps to avoid maps when using focus-->
+    <a href="#restaurants" class="skip-link">Skip map to restaurants lists</a>
   </header>
-
   <main id="maincontent">
     <section id="map-container">
-      <div id="map"></div>
+      <div id="map" tabindex="-1"></div>
     </section>
-    <section>
+    <section id="restaurants">
       <div class="filter-options">
         <h2>Filter Results:</h2>
         <select id="neighborhoods-select" name="neighborhoods" onchange="updateRestaurants()">
