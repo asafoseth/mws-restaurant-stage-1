@@ -20,9 +20,11 @@
     <!--This skip link anchor helps to avoid maps when using focus-->
     <a href="#restaurants" class="skip-link">Skip map to restaurants lists</a>
   </header>
+  
   <main id="maincontent">
+    <!--Set aria role for map to application-->
     <section id="map-container">
-      <div id="map" tabindex="-1"></div>
+      <div role="application" aria-label="application" id="map" tabindex="-1"></div>
     </section>
     <section id="restaurants">
       <div class="filter-options">
