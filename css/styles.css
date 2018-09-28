@@ -343,7 +343,6 @@ nav h1 a {
 }
 #restaurant-hours td {
   color: #666;
-  
 }
 
 #reviews-list li p .reviewer-name {
@@ -376,6 +375,7 @@ nav h1 a {
 #breadcrumb {
   width: 100%;
   text-align: left;
+}
 }
 @media screen and (min-width: 600px) {
 
@@ -458,5 +458,4 @@ nav h1 a {
   .inside #reviews-list li {
     width: 80%;
 }
-
-}}
+}
